@@ -46,6 +46,7 @@ public class SidePaneComponent extends BorderPane {
 
         if (sidePaneType == SidePaneType.GROUPS) {
             setMinHeight(220);
+
         } else {
             setMinHeight(Region.USE_PREF_SIZE);
         }
